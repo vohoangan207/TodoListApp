@@ -21,3 +21,29 @@ Mở Terminal trên máy tính của bạn và chạy lệnh sau (thay URL bằn
 ```bash
 git clone https://github.com/vohoangan207/TodoListApp.git
 cd TodoListApp
+Bước 2: Cài đặt các gói phụ thuộc (Dependencies)
+Bash
+npm install
+Bước 3: Chạy môi trường phát triển (Development Server)
+Bash
+npm run dev
+Sau đó mở trình duyệt và truy cập: http://localhost:3000
+Hướng dẫn nộp bài
+Sau khi hoàn thành xong bài tập trên máy của bạn:
+
+Kiểm tra trạng thái thay đổi:
+
+Bash
+git status
+Thêm file vào danh sách chờ:
+
+Bash
+git add .
+Lưu lại kèm lời nhắn:
+
+Bash
+git commit -m "Hoan thanh bai tap Todo List"
+Đẩy code lên GitHub của bạn:
+
+Bash
+git push origin main
